@@ -22,6 +22,7 @@
     &:hover,
     &:focus,
     &:active {
+      background-color: $highlight-blue;
       animation-name: icon-wobble;
       animation-duration: 0.5s;
       animation-timing-function: ease-in-out;
@@ -32,15 +33,15 @@
 
 @keyframes icon-wobble {
   25% {
-    transform: translateY(-4px);
+    transform: translateX(-2px);
   }
   50% {
-    transform: translateY(0px);
+    transform: translateX(0px);
   }
   75% {
-    transform: translateY(-1px);
+    transform: translateX(-2px);
   }
   100% {
-    transform: translateY(0px);
+    transform: translateX(0px);
   }
 }
