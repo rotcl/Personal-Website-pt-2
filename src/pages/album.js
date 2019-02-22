@@ -65,15 +65,6 @@ const AlbumPage = ({ glr }) => (
         
       </div>
     </div>
-    
-    
-    <p>Lo siento Mario</p>
-    <p>
-      Pero la princesa está en otro&nbsp;
-      <span>
-        <Link to="/">castillo</Link>
-      </span>{' '}
-    </p>
   </Layout>
 )
 
