@@ -21,6 +21,7 @@ import doce from '../assets/album-12.jpg'
 const AlbumPage = ({ glr }) => (
   <Layout>
     <SEO title="Fotografía" />
+    <h1>Fotografía</h1>
     <div className={styles.row}>
       <div className={styles.column}>
       
@@ -65,7 +66,7 @@ const AlbumPage = ({ glr }) => (
       </div>
     </div>
     
-    <h1>Fotografía</h1>
+    
     <p>Lo siento Mario</p>
     <p>
       Pero la princesa está en otro&nbsp;
