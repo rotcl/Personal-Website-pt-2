@@ -23,6 +23,9 @@ const Header = ({ showHome }) => (
       <div className={styles.menuItem}>
         <Link to="/blog/">Blog</Link>
       </div>
+      <div className={styles.menuItem}>
+        <Link to="/esto/">Y esto</Link>
+      </div>
     </div>
   </header>
 )
