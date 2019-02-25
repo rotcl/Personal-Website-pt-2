@@ -15,6 +15,9 @@ import nueve from '../assets/album-9.jpg'
 import diez from '../assets/album-10.jpg'
 import once from '../assets/album-11.jpg'
 import doce from '../assets/album-12.jpg'
+import trece from '../assets/album-13.jpg'
+import catorce from '../assets/album-14.jpg'
+import quince from '../assets/album-15.jpg'
 
 /* eslint-disable jsx-a11y/accessible-emoji */
 const AlbumPage = ({ glr }) => (
@@ -33,6 +36,8 @@ const AlbumPage = ({ glr }) => (
       <p className={styles.photo}> Hijos </p>
       <img src = {diez} alt='burgers beers and boards'/>
       <p className={styles.photo}> Burgers Beers and Boards </p>
+      <img src = {trece} alt='huevo'/>
+      <p className={styles.photo}> Huevo </p>
    </div>
    <div className={styles.column}>
       <img src = {uno} alt='bee'/>
@@ -43,6 +48,8 @@ const AlbumPage = ({ glr }) => (
       <p className={styles.photo}> Portugal </p>
       <img src = {once} alt='lider'/>
       <p className={styles.photo}> Lider </p>
+      <img src = {catorce} alt='Gallo'/>
+      <p className={styles.photo}> Gallo </p>
    </div>
    <div className={styles.column}>
       <img src = {tres} alt='tobalaba'/>
@@ -53,6 +60,8 @@ const AlbumPage = ({ glr }) => (
       <p className={styles.photo}> Las Condes </p>
       <img src = {doce} alt='ufc'/>
       <p className={styles.photo}> UFC </p>
+      <img src = {quince} alt='nature'/>
+      <p className={styles.photo}> Naturaleza </p>
    </div>
 </div>
 
