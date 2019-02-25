@@ -1,6 +1,10 @@
 @import '@styles/_theme.scss';
 @import '@styles/_mixins.scss';
 
+.photo{
+  text-align: center;
+  margin: 0!important;
+}
 .row{
   display: flex;
   flex-wrap: wrap;
@@ -14,7 +18,7 @@
 }
 
 .column img{
-  margin-top: 8px;
+  margin-top: 4px;
   vertical-align: middle;  
   margin-bottom: 0px;  
 }

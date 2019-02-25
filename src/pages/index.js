@@ -7,7 +7,7 @@ const IndexPage = ({ data }) => (
   <Layout>
     <SEO
       title="Frontend Dev"
-      keywords={[`developer`, `engineer`, `react`, `javascript`]}
+      keywords={[`developer`, `engineer`, `react`, `javascript`,`vue`, `web develpoment`, `pixel art`, `shopify`, `ecommerce`]}
     />
     <NameBoard />
     

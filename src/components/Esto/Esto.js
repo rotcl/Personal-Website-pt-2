@@ -10,6 +10,15 @@ const Esto = () => {
         <span>
         <Link to="/">castillo 🏰</Link>
         </span>{' '}
+        <span className={styles.spn}>
+        <Link to="/ups">ups</Link>
+        </span>{' '}
+        <span className={styles.spn}>
+        <Link to="/ops">ops</Link>
+        </span>{' '}
+        <span className={styles.spn}>
+        <Link to="/aps">aps</Link>
+        </span>{' '}
     </p>
     </div>
   }

@@ -20,50 +20,43 @@ import doce from '../assets/album-12.jpg'
 const AlbumPage = ({ glr }) => (
   <Layout>
     <SEO title="Fotografía" />
-    <h1>Fotografía</h1>
-    <div className={styles.row}>
-      <div className={styles.column}>
-      
-        <img src = {uno} alt='bee'/>
-      
-        <img src = {cuatro} alt='santa isabel'/>
-        
-        
-        <img src = {siete} alt='sons'/>
-        
-        
-        <img src = {diez} alt='burgers beers and boards'/>
-        
-      </div>
-      <div className={styles.column}>
-      
-        <img src = {dos} alt='mall sport'/>
-        
-        
-        <img src = {ocho} alt='building'/>
-        
-        
-        <img src = {cinco} alt='portugal'/>
-        
-        
-        <img src = {once} alt='lider'/>
-        
-      </div>
-      <div className={styles.column}>
-      
-        <img src = {tres} alt='tobalaba'/>
-        
-        
-        <img src = {seis} alt='pedro de valdivia'/>
-        
-        <img src = {nueve} alt='las condes'/>
-        
-        
-        
-        <img src = {doce} alt='ufc'/>
-        
-      </div>
-    </div>
+    
+
+<h1>Fotografía</h1>
+<div className={styles.row}>
+   <div className={styles.column}>
+      <img src = {dos} alt='mall sport'/>
+      <p className={styles.photo}> Mall Sport </p>
+      <img src = {cuatro} alt='santa isabel'/>
+      <p className={styles.photo}> Santa Isabel </p>
+      <img src = {siete} alt='sons'/>
+      <p className={styles.photo}> Hijos </p>
+      <img src = {diez} alt='burgers beers and boards'/>
+      <p className={styles.photo}> Burgers Beers and Boards </p>
+   </div>
+   <div className={styles.column}>
+      <img src = {uno} alt='bee'/>
+      <p className={styles.photo}> Abeja </p>
+      <img src = {ocho} alt='building'/>
+      <p className={styles.photo}> Edificio </p>
+      <img src = {cinco} alt='portugal'/>
+      <p className={styles.photo}> Portugal </p>
+      <img src = {once} alt='lider'/>
+      <p className={styles.photo}> Lider </p>
+   </div>
+   <div className={styles.column}>
+      <img src = {tres} alt='tobalaba'/>
+      <p className={styles.photo}> Tobalaba </p>
+      <img src = {seis} alt='pedro de valdivia'/>
+      <p className={styles.photo}> Pedro de Valdivia </p>
+      <img src = {nueve} alt='las condes'/>
+      <p className={styles.photo}> Las Condes </p>
+      <img src = {doce} alt='ufc'/>
+      <p className={styles.photo}> UFC </p>
+   </div>
+</div>
+
+
   </Layout>
 )
 
