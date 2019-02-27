@@ -5,7 +5,7 @@ import styles from './Footer.module.scss'
 const Footer = ({ siteMetadata }) => (
   <footer className={styles.footer}>
     <div>
-      <span>© Copyright 2019 </span>
+      <span className={styles.copy}>© Copyright 2019 </span>
       <a href={siteMetadata.gitlabHandle} className={styles.link} target="_blank">
         {siteMetadata.fullName}
       </a>

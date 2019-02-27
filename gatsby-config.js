@@ -15,6 +15,9 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-remark`,
+    `gatsby-transformer-javascript-frontmatter`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -36,9 +39,13 @@ module.exports = {
         path: `${__dirname}/src/blog/`,
       },
     },
-    `gatsby-transformer-javascript-frontmatter`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `assets`,
+        path: `${__dirname}/src/assets`,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
