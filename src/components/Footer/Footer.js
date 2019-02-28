@@ -6,7 +6,7 @@ const Footer = ({ siteMetadata }) => (
   <footer className={styles.footer}>
     <div>
       <span className={styles.copy}>© Copyright 2019 </span>
-      <a href={siteMetadata.gitlabHandle} className={styles.link} target="_blank">
+      <a href={siteMetadata.gitlabHandle} className={styles.link}>
         {siteMetadata.fullName}
       </a>
     </div>
