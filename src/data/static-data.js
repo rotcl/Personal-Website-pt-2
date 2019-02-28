@@ -110,6 +110,11 @@ export const frontmatter = {
       desc: '01/2019 - Participación en el rediseño del sitio. (ropa especializada)',
       link: 'https://scorpi.cl/',
     },
+    {
+      title: 'W - Fracción',
+      desc: '01/2019 - Participación en el rediseño del sitio. (medicamentos al gramo)',
+      link: 'https://fraccion.cl/',
+    },
     
   ],
 }
