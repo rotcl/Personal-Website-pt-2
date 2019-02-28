@@ -2,7 +2,7 @@ export const frontmatter = {
   portfolioItems: [
     {
       title: 'P - 177.147',
-      desc: 'Clon del famoso 2048 pero que funciona en base a 3.',
+      desc: 'Clon del famoso juego 2048 pero que funciona en base a 3.',
       link: 'http://play.irot.cl/',
     },
     {
@@ -112,7 +112,7 @@ export const frontmatter = {
     },
     {
       title: 'W - Fracción',
-      desc: '01/2019 - Participación en el rediseño del sitio. (medicamentos al gramo)',
+      desc: '02/2019 - Participación en el rediseño del sitio. (medicamentos al gramo)',
       link: 'https://fraccion.cl/',
     },
     
