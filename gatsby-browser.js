@@ -1,4 +1,5 @@
 import '@styles/base.scss'
+require('typeface-ubuntu')
 
 /**
  * Implement Gatsby's Browser APIs in this file.
