@@ -1,7 +1,5 @@
 const path = require('path')
 const { createFilePath } = require(`gatsby-source-filesystem`)
-import fs from 'fs-extra-promise'
-import sm from 'sitemap' 
 
 exports.onCreateWebpackConfig = ({
   stage,
