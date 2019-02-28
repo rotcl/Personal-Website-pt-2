@@ -18,6 +18,7 @@ const SocialHandles = ({ siteMetadata }) => {
         href={siteMetadata.wpformsHandle}
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Curriculum"
       >
         <FontAwesomeIcon icon={faWpforms} />
       </a>
@@ -25,6 +26,7 @@ const SocialHandles = ({ siteMetadata }) => {
         href={siteMetadata.gitlabHandle}
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="rotcl Gitlab"
       >
         <FontAwesomeIcon icon={faGitlab} />
       </a>
@@ -32,6 +34,7 @@ const SocialHandles = ({ siteMetadata }) => {
         href={siteMetadata.twitterHandle}
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="rotcl Twitter"
       >
         <FontAwesomeIcon icon={faTwitter} />
       </a>
@@ -39,6 +42,7 @@ const SocialHandles = ({ siteMetadata }) => {
         href={siteMetadata.stackOverflowHandle}
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="rotcl StackOverflow"
       >
         <FontAwesomeIcon icon={faStackOverflow} />
       </a>
@@ -46,6 +50,7 @@ const SocialHandles = ({ siteMetadata }) => {
         href={siteMetadata.devToHandle}
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="rotcl Dev.to"
       >
         <FontAwesomeIcon icon={faDev} />
       </a>
@@ -53,6 +58,7 @@ const SocialHandles = ({ siteMetadata }) => {
         href={siteMetadata.mediumHandle}
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="rotcl Medium"
       >
         <FontAwesomeIcon icon={faMedium} />
       </a>
@@ -60,6 +66,7 @@ const SocialHandles = ({ siteMetadata }) => {
         href={siteMetadata.linkedInHandle}
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="rotcl Linkedin"
       >
         <FontAwesomeIcon icon={faLinkedin} />
       </a>
