@@ -37,6 +37,14 @@ module.exports = {
         }`
       }
     },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://irot.cl',
+        sitemap: 'https://www.irot.cl/some-other-sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-remark`,
     `gatsby-transformer-javascript-frontmatter`,
