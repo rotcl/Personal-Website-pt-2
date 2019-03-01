@@ -45,6 +45,13 @@ module.exports = {
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },
+    {
+      resolve: 'gatsby-plugin-crisp-chat',
+      options: {
+        websiteId: '8a11ae5b-36a4-483c-b16a-6f7d66aac983',
+        enableDuringDevelop: true,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-remark`,
     `gatsby-transformer-javascript-frontmatter`,
