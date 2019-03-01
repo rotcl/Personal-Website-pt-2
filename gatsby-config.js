@@ -11,8 +11,32 @@ module.exports = {
     devToHandle: `https://dev.to/rclot`,
     mediumHandle: `https://medium.com/@gabriel.vial`,
     linkedInHandle: `https://www.linkedin.com/in/gabriel-v/`,
+    siteUrl: `https://irot.cl`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/some-other-sitemap.xml`,
+        exclude: [`/404`],
+        query: `
+          {
+            site {
+              siteMetadata {
+                siteUrl
+              }
+            }
+   
+            allSitePage {
+              edges {
+                node {
+                  path
+                }
+              }
+            }
+        }`
+      }
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-remark`,
     `gatsby-transformer-javascript-frontmatter`,
