@@ -16,10 +16,10 @@
   justify-content: flex-end;
 
   .menu-item {
-    color: $colorPrimary;
+    color: $primary-grey;
     margin: 0 0.5rem;
     justify-content: flex-end;
-    padding-bottom: 0.25rem;
+    padding: 0.3rem;
 
     &:hover {
       box-shadow: 0 1.5px 0 0 currentColor;
