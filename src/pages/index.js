@@ -6,7 +6,7 @@ import NameBoard from '@components/NameBoard'
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO
-      title="Frontend Dev"
+      title="IR"
       keywords={[`developer`, `engineer`, `react`, `javascript`,`vue`, `web develpoment`, `pixel art`, `shopify`, `ecommerce`]}
     />
     <NameBoard />

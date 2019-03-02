@@ -5,7 +5,10 @@ import SEO from '../components/seo'
 /* eslint-disable jsx-a11y/accessible-emoji */
 const AboutPage = () => (
   <Layout>
-    <SEO title="Acerca de" />
+    <SEO
+      title="Acerca de"
+      keywords={[`developer`, `engineer`, `react`, `javascript`,`vue`, `web develpoment`, `pixel art`, `shopify`, `ecommerce`]}
+    />
     <h1>Gabriel Andrés Vial Arqueros.</h1>
 
     <p>23 años 👋</p>

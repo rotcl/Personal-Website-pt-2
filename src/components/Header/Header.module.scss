@@ -17,9 +17,9 @@
 
   .menu-item {
     color: $primary-grey;
-    margin: 0 0.5rem;
+    margin: 0 0.3rem;
     justify-content: flex-end;
-    padding: 0.25rem;
+    padding-bottom: 0.25rem;
 
     &:hover {
       box-shadow: 0 1.5px 0 0 currentColor;
