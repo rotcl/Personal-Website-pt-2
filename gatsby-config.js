@@ -47,6 +47,15 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        // Setting a color is optional.
+        color: `#e1ae00`,
+        // Disable the loading spinner.
+        showSpinner: false,
+      }
+    },
+    {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: 'https://irot.cl',
