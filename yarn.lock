@@ -5613,6 +5613,18 @@ gatsby-link@^2.0.8:
     "@types/reach__router" "^1.0.0"
     prop-types "^15.6.1"
 
+gatsby-plugin-amplitude-analytics@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-amplitude-analytics/-/gatsby-plugin-amplitude-analytics-1.4.0.tgz#83cca1e085ebff58619b1920759732f9b0f3a381"
+  integrity sha512-WVrc88Ch08Uk6Oq3GCy0wlN81smLXuavMlF/bcY+K0dV6mLya7aLITDHaRK011RxYTFSb7kY+SJz2ogpf3yFpg==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+
+gatsby-plugin-crisp-chat@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-crisp-chat/-/gatsby-plugin-crisp-chat-2.1.0.tgz#d0e41eb2de3a6dc5feb0ae446fa7e97e7dad29bc"
+  integrity sha512-Pj6ZSLJFi209MxWAU0Uu9EDRZkxXqsv9yPynZYxTMyNMnO3jlyRvSb2uC2aDnqmV1+i4msq/8dWCJnCJhXY6Hw==
+
 gatsby-plugin-favicon@^3.1.5:
   version "3.1.5"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-favicon/-/gatsby-plugin-favicon-3.1.5.tgz#5af0789cc59928dff8b5037e6948c0efdf6ec591"

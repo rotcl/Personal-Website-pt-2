@@ -38,6 +38,15 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-plugin-amplitude-analytics`,
+      options: {
+        apiKey: "1dfea6b57110db0ac8e444c52e2b9e1d",
+        head: false,
+        respectDNT: true,
+        exclude: ["/404/"],
+      },
+    },
+    {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: 'https://irot.cl',
