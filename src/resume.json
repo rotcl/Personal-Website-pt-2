@@ -1,0 +1,134 @@
+{
+	"personal": {
+		"name":"Gabriel Andrés Vial Arqueros",
+		"picture": "",
+		"email":"gabriel.vial@irot.cl",
+		"phone":"+56932719940",
+		"summary":"Padre de mellizos, programador freelance, gamer frustrado, guitarrista de medio tiempo, con ganas de especializarme en seguridad informatica",
+		"location":{
+            "address":"Las Guitarras 7287",
+            "postalCode":"7560637",
+            "city":"Santiago",
+            "countryCode":"CL",
+            "region":"Metropolitana"
+          },
+		"url": {
+            "IR": "https://irot.cl",
+			"gitlab": "https://gitlab.com/rotcl",
+            "linkedin": "https://www.linkedin.com/in/gabriel-v/",
+            "twitter": "https://twitter.com/_rotcl"
+		}
+	},
+    "experience": [
+		{
+            "company": "Haciéndola",
+            "url": "https://haciéndola.com",
+            "location": "Las Condes, CL",
+            "positions": [
+                {
+                    "title": "Programador Frontend",
+                    "dates": {
+                        "start": "20-08-2018",
+                        "end": "Presente"
+                    },
+                    "summary": [
+                        "",
+                        "Realizar cambios de diseño en tiendas online.",
+                        "Enfoque en UX de cada sitio trabajado.",
+                        "Realizar análisis de rendimiento antes/después de cada sitio.",
+                        "Creación de secciones, aplicaciones y templates para Shopify."
+                    ]
+                }
+            ]
+        },
+		{
+			"company": "IR",
+			"url": "https://irot.cl/",
+			"location": "Freelance",
+            "positions": [
+                {
+                    "title": "Programador",
+                    "dates": {
+                        "start": "2015",
+                        "end": "Presente"
+                    },
+                    "summary": [
+                        "",
+                        "Desarrollo web a multiples clientes.",
+                        "Desarrollo de sistemas para clientes de mayores requerimientos.",
+                        "Creación de contenido y material para blog personal/informático.",
+                        "Estrategias de crecimiento personal."
+                    ]
+                }
+            ]
+        }
+	],
+	"education": [
+		{
+			"institution": "Universidad Tecnológica Metropolitana (UTEM)",
+			"url": "https://utem.cl",
+			"location": {
+				"countryCode": "",
+				"region": "RM",
+				"city": "Santiago",
+				"postalCode": "",
+				"address": "Av. José Pedro Alessandri 1242"
+			},
+            "degrees": [
+                {
+                    "title": "Ingeniería Industrial",
+                    "dates": {
+                        "start": "2013",
+                        "end": "2014"
+                    },
+                    "gpa": "4.5",
+                    "courses": []
+                }
+            ]
+        },
+        {
+			"institution": "DuocUC",
+			"url": "https://www.duoc.cl/",
+			"location": {
+				"countryCode": "",
+				"region": "RM",
+				"city": "Santiago",
+				"postalCode": "",
+				"address": "Antonio Varas 666"
+			},
+            "degrees": [
+                {
+                    "title": "Ingeniería Informática",
+                    "dates": {
+                        "start": "2014",
+                        "end": "2016"
+                    },
+                    "gpa": "5",
+                    "courses": []
+                }
+            ]
+        },
+        {
+			"institution": "AIEP",
+			"url": "https://www.aiep.cl/",
+			"location": {
+				"countryCode": "",
+				"region": "RM",
+				"city": "Santiago",
+				"postalCode": "",
+				"address": "Bellavista 0103"
+			},
+            "degrees": [
+                {
+                    "title": "Ingeniería Informática",
+                    "dates": {
+                        "start": "2018",
+                        "end": "Presente"
+                    },
+                    "gpa": "5",
+                    "courses": []
+                }
+            ]
+		}
+	]
+}
