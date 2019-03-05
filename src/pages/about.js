@@ -29,7 +29,7 @@ const AboutPage = () => (
     </p>
     <p>También puedes ver mi 
       <span>
-        <a href={"/resume"}>Currículum Vitae acá 📋️</a>
+        <a href={"/resume"}> Currículum Vitae acá 📋️</a>
       </span>{' '}</p>
   </Layout>
 )
