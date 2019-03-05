@@ -38,15 +38,6 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-amplitude-analytics`,
-      options: {
-        apiKey: "1dfea6b57110db0ac8e444c52e2b9e1d",
-        head: false,
-        respectDNT: true,
-        exclude: ["/404/"],
-      },
-    },
-    {
       resolve: `gatsby-plugin-nprogress`,
       options: {
         // Setting a color is optional.
@@ -62,13 +53,6 @@ module.exports = {
         sitemap: 'https://www.irot.cl/some-other-sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
-    },
-    {
-      resolve: 'gatsby-plugin-crisp-chat',
-      options: {
-        websiteId: '8a11ae5b-36a4-483c-b16a-6f7d66aac983',
-        enableDuringDevelop: true,
-      },
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-remark`,
