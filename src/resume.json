@@ -69,8 +69,8 @@
 			"url": "https://utem.cl",
 			"location": {
 				"countryCode": "",
-				"region": "RM",
-				"city": "Santiago",
+				"region": "Santiago",
+				"city": "Ñuñoa",
 				"postalCode": "",
 				"address": "Av. José Pedro Alessandri 1242"
 			},
@@ -91,8 +91,8 @@
 			"url": "https://www.duoc.cl/",
 			"location": {
 				"countryCode": "",
-				"region": "RM",
-				"city": "Santiago",
+				"region": "Santiago",
+				"city": "Providencia",
 				"postalCode": "",
 				"address": "Antonio Varas 666"
 			},
@@ -113,8 +113,8 @@
 			"url": "https://www.aiep.cl/",
 			"location": {
 				"countryCode": "",
-				"region": "RM",
-				"city": "Santiago",
+				"region": "Santiago",
+				"city": "Providencia",
 				"postalCode": "",
 				"address": "Bellavista 0103"
 			},

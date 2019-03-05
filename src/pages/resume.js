@@ -6,6 +6,7 @@ const resume = require('../resume.json');
 const Res = () => (
         <div>
         <SEO title="Currículum Vitae" />
+
         <Resume
             personal={resume.personal}
             experience={resume.experience}
