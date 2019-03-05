@@ -27,7 +27,10 @@ const AboutPage = () => (
         <a href={"tel:+56932719940"}>por acá ☎️</a>
       </span>{' '}
     </p>
-
+    <p>También puedes ver mi </p>
+      <span>
+        <a href={"/resume"}>Currículum Vitae acá 📋️</a>
+      </span>{' '}
   </Layout>
 )
 /* eslint-enable jsx-a11y/accessible-emoji */
