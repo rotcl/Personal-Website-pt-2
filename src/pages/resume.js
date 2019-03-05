@@ -4,8 +4,6 @@ import SEO from '../components/seo'
 
 const resume = require('../resume.json');
 const Res = () => (
-    
-        <SEO title="CV" />
         <Resume
             personal={resume.personal}
             experience={resume.experience}
