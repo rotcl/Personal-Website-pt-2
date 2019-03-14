@@ -4,7 +4,7 @@ module.exports = {
     description: `Gabriel Vial aka rotcl: Padre, Programador, Guitarrista, Gamer; desarrollador front end enfocado al mundo del eCommerce y desarrollo web profesional.`,
     author: `rotcl`,
     fullName: `Gabriel Vial`,
-    wpformsHandle: `https://google.com`,
+    wpformsHandle: `/resume`,
     twitterHandle: `https://twitter.com/_rotcl`,
     gitlabHandle: `https://gitlab.com/rotcl`,
     stackOverflowHandle: `https://stackoverflow.com/story/rotcl`,
