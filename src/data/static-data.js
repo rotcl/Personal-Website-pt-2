@@ -1,14 +1,24 @@
 export const frontmatter = {
   portfolioItems: [
     {
+      title: 'P - Drawbby',
+      desc: 'Nace como proyecto tesis para el 2021-2022, proyecto full-stack personal ocupando MongoDB, ExpressJS, VueJS, NodeJS. Se centra en el uso de Machine learning y sicología para evaluar análisis proyectivos',
+      link: 'https://irot.ml',
+    },
+    {
+      title: 'P - Colorblindness',
+      desc: 'Diseño frontend para el PhD de Maciej Laskowski de evaluación de daltonismo, ocupando VueJS',
+      link: 'https://irot.ml',
+    },
+    {
       title: 'P - 177.147',
       desc: 'Clon del famoso juego 2048 pero que funciona en base a 3.',
-      link: 'http://play.irot.cl/',
+      link: 'https://177147.irot.ml/',
     },
     {
       title: 'P - DinoDisconnect',
       desc: 'Supliendo la necesidad de jugar al dinosaurio cuando se va la conexión.',
-      link: 'http://dino.irot.cl/',
+      link: 'https://dino.irot.cl/',
     },
     {
       title: 'P - DeptoOutlet',
@@ -18,17 +28,7 @@ export const frontmatter = {
     {
       title: 'P - ROTH',
       desc: 'Alguna vez traté de hacer un clon del juego ROTMG.',
-      link: 'http://roth.irot.cl/',
-    },
-    {
-      title: 'P - To do',
-      desc: 'Nunca me he destacado en el diseño, pero tengo un to do.',
-      link: 'http://todo.irot.cl',
-    },
-    {
-      title: 'P - Buscador youtube',
-      desc: 'Probé la API de youtube, me dio muchos dramas, y lo dejé de lado.',
-      link: 'http://you.irot.cl/',
+      link: 'https://roth.irot.ml/',
     },
     {
       title: 'S - Paraderos',

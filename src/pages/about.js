@@ -11,7 +11,7 @@ const AboutPage = () => (
     />
     <h1>Gabriel Andrés Vial Arqueros.</h1>
 
-    <p>23 años 👋</p>
+    <p>24 años 👋</p>
     <p>Padre de mellizos 👶</p>
     <p>Jugador CS:GO Amateur 🔫</p>
     <p>Músico de tiempo libre 🎸</p>
@@ -20,7 +20,7 @@ const AboutPage = () => (
     <p>
       Puedes contactarme&nbsp;
       <span>
-        <a href={"mailto:gabriel.vial@irot.cl?Subject=Contacto IR"}>por aquí ✉️</a>
+        <a href={"mailto:ga.vial@zoho.com?Subject=Contacto IR"}>por aquí ✉️</a>
       </span>{' '}
       o puedes llamarme&nbsp;
       <span>

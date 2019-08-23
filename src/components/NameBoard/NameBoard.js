@@ -44,6 +44,7 @@ export default () => (
             fullName
             wpformsHandle
             twitterHandle
+            githubHandle
             gitlabHandle
             stackOverflowHandle
             devToHandle

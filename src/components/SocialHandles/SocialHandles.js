@@ -3,6 +3,7 @@ import styles from './SocialHandles.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faWpforms,
+  faGithub,
   faGitlab,
   faTwitter,
   faStackOverflow,
@@ -21,6 +22,14 @@ const SocialHandles = ({ siteMetadata }) => {
         aria-label="Curriculum"
       >
         <FontAwesomeIcon icon={faWpforms} />
+      </a>
+      <a
+        href={siteMetadata.githubHandle}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="rotcl Github"
+      >
+        <FontAwesomeIcon icon={faGithub} />
       </a>
       <a
         href={siteMetadata.gitlabHandle}

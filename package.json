@@ -10,7 +10,7 @@
     "react"
   ],
   "license": "MIT",
-  "author": "Gabriel Vial <gabriel.vial@irot.cl>",
+  "author": "Gabriel Vial <ga.vial@zoho.com>",
   "scripts": {
     "build": "gatsby build",
     "clean": "rm -rf public .cache",

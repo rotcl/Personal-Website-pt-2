@@ -6,12 +6,13 @@ module.exports = {
     fullName: `Gabriel Vial`,
     wpformsHandle: `/resume`,
     twitterHandle: `https://twitter.com/_rotcl`,
+    githubHandle: `https://github.com/rotcl`,
     gitlabHandle: `https://gitlab.com/rotcl`,
     stackOverflowHandle: `https://stackoverflow.com/story/rotcl`,
     devToHandle: `https://dev.to/rclot`,
     mediumHandle: `https://medium.com/@gabriel.vial`,
     linkedInHandle: `https://www.linkedin.com/in/gabriel-v/`,
-    siteUrl: `https://irot.cl`,
+    siteUrl: `https://irot.ml`,
   },
   plugins: [
     {
@@ -49,8 +50,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://irot.cl',
-        sitemap: 'https://www.irot.cl/some-other-sitemap.xml',
+        host: 'https://irot.ml',
+        sitemap: 'https://www.irot.ml/some-other-sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },
