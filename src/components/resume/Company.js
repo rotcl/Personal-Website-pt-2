@@ -5,7 +5,7 @@ import Position from './Position';
 export default function Company(props) {
     return (
         <div clsasName='section'>
-            <h3 className='subtitle is-3'>
+            <h3 className='subtitle is-4'>
                 <span className='header'>
                     <a href={props.url}>{props.company}</a>
                 </span>

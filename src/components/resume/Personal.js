@@ -9,7 +9,7 @@ export default function Personal(props) {
     }
     return (
         <div>
-            <h1 className='title is-1 center'>
+            <h1 className='title is-3 center'>
                 <a href={props.url}>{props.name}</a>
             </h1>
             <div className='center'>

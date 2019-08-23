@@ -13,13 +13,35 @@
             "region":"Metropolitana"
           },
 		"url": {
-            "IR": "https://irot.cl",
+            "IR": "https://irot.ml",
+            "github": "https://github.com/rotcl",
 			"gitlab": "https://gitlab.com/rotcl",
             "linkedin": "https://www.linkedin.com/in/gabriel-v/",
             "twitter": "https://twitter.com/_rotcl"
 		}
 	},
     "experience": [
+        {
+            "company": "RedCapital",
+            "url": "https://redcapital.cl",
+            "location": "Las Condes, CL",
+            "positions": [
+                {
+                    "title": "Desarrollador Frontend",
+                    "dates": {
+                        "start": "03-2019",
+                        "end": "Presente"
+                    },
+                    "summary": [
+                        "",
+                        "Desarrollo SaaS ocupando Laravel + VueJS.",
+                        "Actualización CRM interno y sitio web actual.",
+                        "Toma de requerimientos para elaborar propuestas.",
+                        "Trabajo en equipo de desarrollo de 5 backend, 2 frontend y diseñadora UX/UI."
+                    ]
+                }
+            ]
+        },
 		{
             "company": "Haciéndola",
             "url": "https://haciendola.com",
@@ -28,8 +50,8 @@
                 {
                     "title": "Programador Frontend",
                     "dates": {
-                        "start": "20-08-2018",
-                        "end": "Presente"
+                        "start": "08-2018",
+                        "end": "03-2019"
                     },
                     "summary": [
                         "",
@@ -43,11 +65,11 @@
         },
 		{
 			"company": "IR",
-			"url": "https://irot.cl/",
+			"url": "https://irot.ml/",
 			"location": "Freelance",
             "positions": [
                 {
-                    "title": "Programador",
+                    "title": "Desarrollador",
                     "dates": {
                         "start": "2015",
                         "end": "Presente"
