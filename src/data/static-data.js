@@ -1,6 +1,11 @@
 export const frontmatter = {
   portfolioItems: [
     {
+      title: 'P - NavidadLocal',
+      desc: 'Proyecto en desarrollo full-stack personal ocupando MongoDB, ExpressJS, VueJS, NodeJS. Se centra en el medio de ayudar a las pymes y negocios locales durante la navidad y cualquier festividad para disminuir la compra en el retail y aumentar al emprendedor local bajo las contigencias actuales en Chile.',
+      link: 'https://irot.ml',
+    },
+    {
       title: 'P - Drawbby',
       desc: 'Nace como proyecto tesis para el 2021-2022, proyecto full-stack personal ocupando MongoDB, ExpressJS, VueJS, NodeJS. Se centra en el uso de Machine learning y sicología para evaluar análisis proyectivos',
       link: 'https://irot.ml',
@@ -18,7 +23,7 @@ export const frontmatter = {
     {
       title: 'P - DinoDisconnect',
       desc: 'Supliendo la necesidad de jugar al dinosaurio cuando se va la conexión.',
-      link: 'https://dino.irot.cl/',
+      link: 'https://dino.irot.ml/',
     },
     {
       title: 'P - DeptoOutlet',
