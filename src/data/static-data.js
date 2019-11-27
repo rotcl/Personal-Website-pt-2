@@ -6,6 +6,11 @@ export const frontmatter = {
       link: 'https://irot.ml',
     },
     {
+      title: 'P - url shortener',
+      desc: 'Acortador de urls (en beta), ocupando NodeJS, LowDB, y VueJS.',
+      link: 'https://corti.ml'
+    },
+    {
       title: 'P - Drawbby',
       desc: 'Nace como proyecto tesis para el 2021-2022, proyecto full-stack personal ocupando MongoDB, ExpressJS, VueJS, NodeJS. Se centra en el uso de Machine learning y sicología para evaluar análisis proyectivos',
       link: 'https://irot.ml',
